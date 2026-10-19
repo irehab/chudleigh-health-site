@@ -1,0 +1,144 @@
+Photos used on the site. Before you point chudleighhealth.com at GitHub, save each one into an 'images' folder in GitHub with the name shown.
+Until then, the pages show them straight from your old site.
+
+images/hero.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/4e706615-4325-4f02-b18a-d83066c59eef/l336,t0,w864,h864/image.jpg
+
+images/pain.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/f73d02fe-d434-4d1e-84ee-c6b5375ddd1f/l269,t0,w1080,h1080/image.jpg
+
+images/care.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/ac31ae91-14f8-4081-b27c-be06a8f930b8/l256,t0,w1024,h1024/image.jpg
+
+images/help.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/373cf983-6dfe-4a46-bf74-106a812196da/l270,t1,w1078,h1078/image.jpg
+
+images/tired.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/437693a4-ffa2-4ef4-85e4-8dba5664936a/l211,t0,w1195,h1080/image-768x694.jpg
+
+images/what-osteo.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/b190b74f-59c7-4384-a3be-80db586e900e/l150,t0,w600,h600/image.jpg
+
+images/who-osteo.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/3dde5c7c-01ed-4010-b207-0f58b807dbf4/l0,t0,w1023,h796/image.jpg
+
+images/treat-osteo.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/9a1b7995-d008-4a4c-adc5-03287acc587f/l0,t0,w1023,h796/image.jpg
+
+images/safe-osteo.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/237dfff6-cd7b-474a-a855-2653ca1a6c4a/l150,t0,w600,h600/image.jpg
+
+images/about.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/a377881c-0d46-44b6-a021-e6c6f5e219b3/l270,t1,w1079,h1079/image.jpg
+
+images/contact.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/1c53bd53-ef78-401d-ac3c-3395f4165e14/l150,t0,w600,h600/image.jpg
+
+images/john.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/690af996-18fa-4edf-b153-916aa4c6a241/l20,t0,w280,h280/image.jpg
+
+images/steph.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/e6fc05af-5f39-4856-a858-b7bf295e64dc/l0,t0,w320,h280/image.jpg
+
+images/will.png
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/8186f5c9-fa15-4745-b401-dd4b7c77b4fd/l0,t0,w320,h320/image.png
+
+images/hellie.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/828a0456-725e-4a2b-b936-c11600e1a58d/l0,t75,w1333,h1333/image.jpg
+
+images/back-manip.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/d9f0880c-b29a-40b6-887f-0a08908e7c2f/l432,t0,w1056,h1056/image-768x768.jpg
+
+images/back-soft.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/f543f992-7d16-484b-b18e-5e1f1662a3cb/l270,t0,w1080,h1080/image-768x768.jpg
+
+images/back-mob.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/b0a8d0e2-a41c-494d-aeb3-a19879713b14/l223,t0,w1080,h1080/image-768x768.jpg
+
+images/back-rehab.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/e1a1b4fc-a833-4dc7-8621-754ac16b5660/l199,t0,w796,h796/image-768x768.jpg
+
+images/neck.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/a647ed77-0e66-4d24-a941-acb5389d9946/l0,t274,w1372,h1372/image-768x768.jpg
+
+images/neck-osteo.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/ff15a836-106a-4b6d-bccf-c00801d4b6d3/l0,t192,w1536,h1536/image-768x768.jpg
+
+images/neck-life.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/2c0802d8-14f4-40ec-a458-485f53b39c55/l320,t0,w1280,h1280/image-768x768.jpg
+
+images/shoulder.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/fd9bfc85-9a28-4b0d-88fa-af8fc598fae7/l0,t320,w1280,h1280/image-768x768.jpg
+
+images/sh-anat.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/2c30cced-ac7e-48c4-b79a-f17b28731211/l0,t267,w1386,h1386/image-768x768.jpg
+
+images/sh-rc.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/778d24af-941f-42d8-b95a-30bac01d65ba/l0,t140,w1640,h1640/image-768x768.jpg
+
+images/sh-frozen.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/ece1f1e0-8950-4780-90a3-91e280c17fab/l320,t0,w1280,h1280/image-768x768.jpg
+
+images/sh-disl.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/f068dc3f-e215-4b9e-9ba1-42783665e624/l420,t0,w1080,h1080/image-768x768.jpg
+
+images/elbow.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/81b492b5-146c-4116-9af9-87d2f81b61d6/l270,t0,w1080,h1080/image-768x768.jpg
+
+images/elbow-2.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/663adec1-5cbc-4ae7-a1dc-0a0a794db502/l113,t0,w1080,h1080/image-384x384.jpg
+
+images/hip.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/a9dfa138-ca3c-4abb-b0e3-52c1cc5073ce/l320,t0,w1280,h1280/image-768x768.jpg
+
+images/hip-oa.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/e7524320-ccef-4408-a4c6-eaf7f2a94d6b/l150,t0,w600,h600/image.jpg
+
+images/hip-burs.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/bd821925-4302-4d4f-b2d9-7389a1dcfd95/l216,t0,w1080,h1080/image-768x768.jpg
+
+images/hip-flex.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/8138c80b-09f2-404a-a628-2fa4e9debb1c/l75,t20,w604,h604/image.jpg
+
+images/hip-sci.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/9730901c-f84a-4666-96a5-5c28cd81138c/l320,t0,w1280,h1280/image-768x768.jpg
+
+images/knee.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/33d53535-29b7-4e76-b31d-1340d5417552/l275,t0,w1371,h1371/image-768x768.jpg
+
+images/knee-2.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/2684b516-407b-4129-b7a1-4499a232164d/l420,t0,w1080,h1080/image-768x768.jpg
+
+images/preg.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/a3ccb65a-bada-4904-88c9-90a731b0e618/l320,t0,w1280,h1280/image-768x768.jpg
+
+images/preg-treat.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/908cad7a-58a0-41fc-85c8-627bf7226060/l323,t0,w1275,h1275/image-768x768.jpg
+
+images/preg-newborn.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/fd441441-0398-457c-a3f8-f686466c1c38/l0,t324,w1272,h1272/image-768x768.jpg
+
+images/preg-holistic.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/908cad7a-58a0-41fc-85c8-627bf7226060/l273,t0,w1080,h1080/image-768x768.jpg
+
+images/preg-milestones.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/abe56893-2a5e-4157-8c90-8dbc2da5b741/l0,t320,w1281,h1281/image-384x384.jpg
+
+images/long-hero.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/6ea01a00-148b-4f3f-889e-2572db0fb69c/l412,t0,w1024,h1024/image.jpg
+
+images/long-what.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/bb4a25b3-0f60-4b2c-b461-fa6cac69d3da/l302,t0,w914,h1024/image.jpg
+
+images/long-choice.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/85ac0843-e539-4982-b096-daf3bfa1312a/l256,t0,w1024,h1024/image.jpg
+
+images/long-physical.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/0dd29428-46bd-47f6-8fce-0b34df50a822/l256,t0,w1024,h1024/image-768x768.jpg
+
+images/long-move.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/be4ed61c-b658-4f95-831c-b2aa37dbb8d2/l256,t0,w1024,h1024/image-768x768.jpg
+
+images/long-sleep.jpg
+  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/b31a1ae3-e789-4f32-b521-79f5742ac9e2/l256,t0,w1024,h1024/image-768x768.jpg
+
