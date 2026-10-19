@@ -12,15 +12,19 @@ PAGES = [
     "index.html", "osteopathy.html", "longevity.html", "about.html", "fees.html",
     "contact.html", "lower-back-pain.html", "neck-pain-headaches.html", "shoulder-pain.html",
     "elbow-pain.html", "hip-pain.html", "knee-pain.html", "pregnancy-mum-baby.html", "privacy.html",
+    "health-autonomy/index.html", "health-autonomy/the-science.html",
 ]
+# Health Autonomy pages have no <main>: read from <body>, skipping only the site header (class "sn").
+FROM_BODY = {"health-autonomy/index.html", "health-autonomy/the-science.html"}
 BLOCK = {"p", "li", "h1", "h2", "h3", "h4", "tr", "div", "section", "article", "br", "dt", "dd"}
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 SKIP = {"script", "style", "nav", "header", "svg", "noscript", "button"}
 
 
 class PageText(HTMLParser):
-    def __init__(self):
+    def __init__(self, from_body=False):
         super().__init__(convert_charrefs=True)
+        self.from_body = from_body
         self.title = ""
         self.parts = []
         self.stack = []  # (tag, hides_content) for each open element
@@ -36,7 +40,7 @@ class PageText(HTMLParser):
         classes = (a.get("class") or "").split()
         if tag == "title":
             self.in_title = True
-        if tag in ("main", "footer"):
+        if tag in ("main", "footer") or (tag == "body" and self.from_body):
             self.in_body = True
         if tag in ("h1", "h2", "h3", "h4"):
             self.parts.append("\n" + "#" * int(tag[1]) + " ")
@@ -52,7 +56,8 @@ class PageText(HTMLParser):
                 self.parts.append(f" ({href}) ")
         if tag in VOID:
             return
-        hides = tag in SKIP or "placeholder" in classes or any(c in ("water", "hero-water") for c in classes)
+        skip = tag in SKIP and not (self.from_body and tag == "header" and "sn" not in classes)
+        hides = skip or "placeholder" in classes or any(c in ("water", "hero-water") for c in classes)
         self.stack.append((tag, hides))
 
     def handle_endtag(self, tag):
@@ -89,7 +94,7 @@ def main():
         out.append("=== Clinic summary ===\n" + f.read().split("## Pages")[0].strip())
     footer_seen = None
     for page in PAGES:
-        p = PageText()
+        p = PageText(from_body=page in FROM_BODY)
         with open(os.path.join(ROOT, page), encoding="utf-8") as f:
             p.feed(f.read())
         text = p.text()
@@ -98,7 +103,7 @@ def main():
         if footer and footer == footer_seen:
             text = text[: text.rfind("© ")].rstrip()
         footer_seen = footer or footer_seen
-        url = SITE if page == "index.html" else SITE + page
+        url = SITE + page.removesuffix("index.html")
         out.append(f"=== Page: {p.title.strip()} ({url}) ===\n{text}")
     with open(os.path.join(ROOT, "chatbot", "knowledge.txt"), "w", encoding="utf-8", newline="\n") as f:
         f.write("\n\n".join(out) + "\n")
