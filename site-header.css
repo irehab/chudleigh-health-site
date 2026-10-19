@@ -1,0 +1,53 @@
+/* Shared site header for every page: logo, main menu, Longevity section links */
+.ha-logo{font-family:'Herr Von Muellerhoff','Brush Script MT',cursive;font-weight:400;line-height:1.1;white-space:nowrap;letter-spacing:0}
+.ha-H{display:inline-block;transform:scaleX(.75);transform-origin:right bottom;margin-right:-.08em}
+.ha-a{font-size:1.4em;line-height:0;margin-right:-.03em}
+
+.sn{--sn-bg:#FFFFFF;--sn-line:#E2E4E3;--sn-ink:#4D4F4E;--sn-strong:#2F3130;--sn-hover:#F4F4F2;--sn-current:#E4F1F2;--sn-teal:#8CC6CC;--sn-accent:#3D7F88;
+  position:sticky;top:0;z-index:60;background:var(--sn-bg);border-bottom:1px solid var(--sn-line);font-family:'Lato',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;box-shadow:0 2px 12px -8px rgba(77,79,78,.35)}
+/* Pages that support dark mode add the "dk" class */
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .sn.dk{--sn-bg:#232625;--sn-line:#3B3F3E;--sn-ink:#D9DEDD;--sn-strong:#FFFFFF;--sn-hover:#2A2D2C;--sn-current:#2F4447}
+}
+:root[data-theme="dark"] .sn.dk{--sn-bg:#232625;--sn-line:#3B3F3E;--sn-ink:#D9DEDD;--sn-strong:#FFFFFF;--sn-hover:#2A2D2C;--sn-current:#2F4447}
+
+.sn-in{max-width:1140px;margin:0 auto;padding:8px max(20px,env(safe-area-inset-right,0px)) 10px max(20px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:20px}
+.sn-brand{display:flex;flex-direction:column;text-decoration:none;line-height:1}
+.sn-brand .ha-logo{font-size:44px;color:var(--sn-teal)}
+.sn-sub{font-family:'Cormorant Garamond',Georgia,serif;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--sn-ink);margin:-2px 0 0 30px;white-space:nowrap}
+.sn-sub em{text-transform:none;letter-spacing:.02em;font-size:13px;color:var(--sn-accent)}
+.sn-links{display:flex;align-items:center;gap:2px;margin-left:auto}
+.sn-links a{color:var(--sn-ink);text-decoration:none;font-size:15px;padding:8px 12px;border-radius:999px;white-space:nowrap;transition:background .15s,color .15s}
+.sn-links a:hover{background:var(--sn-hover)}
+.sn-links a[aria-current="page"]{background:var(--sn-current);color:var(--sn-strong);font-weight:700}
+.sn-cta{background:#3D7F88;color:#fff;font-weight:700;font-size:15px;text-decoration:none;padding:9px 18px;border-radius:999px;white-space:nowrap;transition:background .15s}
+.sn-cta:hover{background:#336E76;color:#fff}
+.sn a:focus-visible,.sn button:focus-visible{outline:2px solid var(--sn-accent);outline-offset:2px}
+.sn-toggle{display:none;margin-left:auto;background:none;border:1px solid var(--sn-line);border-radius:999px;padding:8px 14px;font:700 14px 'Lato',Arial,sans-serif;color:var(--sn-ink);cursor:pointer}
+
+/* Longevity section links (Overview, The science, Read the book) */
+.sn-section{border-top:1px solid var(--sn-line)}
+.sn-section-in{max-width:1140px;margin:0 auto;padding:6px max(14px,env(safe-area-inset-right,0px)) 6px max(14px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:2px;overflow-x:auto;scrollbar-width:none}
+.sn-section-in::-webkit-scrollbar{display:none}
+.sn-section-label{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:16px;color:var(--sn-accent);margin:0 10px 0 6px;white-space:nowrap}
+.sn-section a{color:var(--sn-ink);text-decoration:none;font-size:14px;padding:6px 11px;border-radius:999px;white-space:nowrap}
+.sn-section a:hover{background:var(--sn-hover)}
+.sn-section a[aria-current="page"]{background:var(--sn-current);color:var(--sn-strong);font-weight:700}
+
+@media(max-width:980px){
+  .sn-in{flex-wrap:wrap;gap:6px 10px;padding-top:6px;padding-bottom:6px}
+  .sn-brand .ha-logo{font-size:34px}
+  .sn-tag{display:none}
+  .sn-sub{margin-left:22px}.sn-sub em{font-size:11.5px}
+  .sn-toggle{display:block}
+  .sn-cta{font-size:14px;padding:8px 14px}
+  .sn-links{display:none;order:3;width:100%;flex-direction:column;align-items:stretch;gap:2px;margin:4px 0 6px}
+  .sn-links.open{display:flex}
+  .sn-links a{font-size:16px;padding:11px 14px;border-radius:12px}
+}
+@media(max-width:420px){
+  .sn-brand .ha-logo{font-size:30px}
+  .sn-sub{margin-left:18px}
+  .sn-section-label{display:none}
+}
+@media print{.sn{display:none}}

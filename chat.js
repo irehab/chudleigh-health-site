@@ -11,7 +11,7 @@
   if (!endpoint || document.getElementById("chh-chat")) return;
 
   var css = [
-    "#chh-chat{--c-accent:var(--orange,#F08A2E);--c-paper:var(--paper,#fff);--c-ink:var(--ink,#2F3130);--c-muted:var(--muted,#5E615F);--c-mist:var(--mist,#EEF0EF);--c-line:var(--line,#D6DBD9);--c-link:var(--teal-ink,#3D7F88);font-family:var(--sans,'Source Sans 3','Segoe UI',Helvetica,Arial,sans-serif);font-size:16px;line-height:1.45}",
+    "#chh-chat{--c-accent:var(--accent,#3D7F88);--c-paper:var(--paper,#fff);--c-ink:var(--ink,#2F3130);--c-muted:var(--muted,#5E615F);--c-mist:var(--mist,#EEF0EF);--c-line:var(--line,#D6DBD9);--c-link:var(--teal-ink,#3D7F88);font-family:var(--sans,'Source Sans 3','Segoe UI',Helvetica,Arial,sans-serif);font-size:16px;line-height:1.45}",
     "#chh-chat *{box-sizing:border-box}",
     "#chh-chat .chh-launch{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:9998;display:flex;align-items:center;gap:8px;padding:12px 18px;border:0;border-radius:999px;background:var(--c-accent);color:#fff;font:inherit;font-weight:600;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.25)}",
     "#chh-chat .chh-launch svg{width:22px;height:22px;flex:none}",

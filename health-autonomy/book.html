@@ -182,6 +182,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site-header.css">
 <link rel="stylesheet" href="assets/site.css">
 <style>
   /* Layout: dark cover band, then a two-column reader (sticky contents + 680px text column) */
@@ -339,19 +340,29 @@
 <div class="progress" id="progress" aria-hidden="true"></div>
 <header class="sn">
   <div class="sn-in">
-    <a class="sn-brand" href="index.html" aria-label="Health Autonomy home">
+    <a class="sn-brand" href="../index.html" aria-label="Chudleigh Health Hub, Health Autonomy, home">
       <span class="ha-logo"><span class="ha-H">H</span>ealth <span class="ha-a">a</span>utonomy</span>
       <span class="sn-sub"><span class="sn-tag">Take Control · </span><em>at Chudleigh Health Hub</em></span>
     </a>
-    <nav class="sn-links" aria-label="Main">
-      <a href="../index.html">Clinic home</a>
-      <a href="index.html">Assessments</a>
-      <a href="the-science.html">The science</a>
-      <a href="book.html" aria-current="page">Read the book</a>
+    <button class="sn-toggle" aria-expanded="false" aria-controls="sn-menu">Menu</button>
+    <nav class="sn-links" id="sn-menu" aria-label="Main">
+      <a href="../osteopathy.html">Osteopathy</a>
+      <a href="../health-autonomy/index.html" aria-current="page">Longevity</a>
+      <a href="../about.html">About us</a>
+      <a href="../fees.html">Fees</a>
+      <a href="../contact.html">Contact</a>
       <a href="https://chudleigh-health-66895860161.europe-west2.run.app/?portal=true" target="_blank" rel="noopener">Patient login</a>
     </nav>
     <a class="sn-cta" href="https://book.squareup.com/appointments/z4iykwnki8iox0/location/LNR036HT1VD7Y/services" target="_blank" rel="noopener">Book now</a>
   </div>
+  <nav class="sn-section" aria-label="Longevity">
+    <div class="sn-section-in">
+      <span class="sn-section-label">Longevity</span>
+      <a href="index.html">Overview</a>
+      <a href="the-science.html">The science</a>
+      <a href="book.html" aria-current="page">Read the book</a>
+    </div>
+  </nav>
 </header>
 
 
@@ -987,5 +998,7 @@
   tm.addEventListener('click',function(e){ if(e.target.tagName==='A'){ tm.open=false; } });
 })();
 </script>
+<script>const t=document.querySelector('.sn-toggle'),m=document.getElementById('sn-menu');if(t&&m){t.addEventListener('click',()=>{const o=m.classList.toggle('open');t.setAttribute('aria-expanded',o)});}</script>
+<script src="../chat.js" defer></script>
 </body>
 </html>

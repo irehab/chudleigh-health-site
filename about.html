@@ -22,14 +22,15 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lato:wght@400;700&display=swap">
+<link rel="stylesheet" href="site-header.css">
 <style>
 :root{
-  --teal:#5FA9B3; --teal-ink:#3D7F88; --orange:#F08A2E; --orange-ink:#B85F12;
+  --teal:#5FA9B3; --teal-ink:#3D7F88; --accent:#3D7F88; --accent-ink:#336E76;
   --charcoal:#4D4F4E; --ink:#2F3130; --muted:#5E615F; --mist:#EEF0EF; --paper:#FFFFFF;
   --line:#D6DBD9;
   --serif:'Cormorant Garamond',Georgia,serif;
-  --sans:'Source Sans 3','Segoe UI',Helvetica,Arial,sans-serif;
+  --sans:'Lato',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
   --script:'Herr Von Muellerhoff','Brush Script MT',cursive;
   --wrap:1120px;
   box-sizing:border-box;
@@ -39,13 +40,13 @@
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     color-scheme:dark;
-    --teal:#7CC0C9; --teal-ink:#8FD0D8; --orange:#F39A4A; --orange-ink:#F6AE6B;
+    --teal:#7CC0C9; --teal-ink:#8FD0D8; --accent:#3D7F88; --accent-ink:#8FD0D8;
     --charcoal:#1F2120; --ink:#ECEEED; --muted:#B4B9B7; --mist:#2A2D2C; --paper:#232625; --line:#3B3F3E;
   }
 }
 :root[data-theme="dark"]{
   color-scheme:dark;
-  --teal:#7CC0C9; --teal-ink:#8FD0D8; --orange:#F39A4A; --orange-ink:#F6AE6B;
+  --teal:#7CC0C9; --teal-ink:#8FD0D8; --accent:#3D7F88; --accent-ink:#8FD0D8;
   --charcoal:#1F2120; --ink:#ECEEED; --muted:#B4B9B7; --mist:#2A2D2C; --paper:#232625; --line:#3B3F3E;
 }
 *,*::before,*::after{box-sizing:inherit}
@@ -54,35 +55,19 @@ html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px)
 body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.65 var(--sans);-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
 a{color:var(--teal-ink)}
-a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--orange);outline-offset:3px;border-radius:2px}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:2px}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
 h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.1;margin:0;color:var(--ink)}
 h2{font-size:clamp(2rem,4.4vw,2.9rem);margin-bottom:.4em}
 h3{font-size:1.5rem}
 p{margin:0 0 1em;max-width:62ch}
 
-/* Header */
+/* Header: see site-header.css */
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
-.site-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:1px solid var(--line)}
-.site-head .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px}
-.logo{text-decoration:none;color:var(--teal);display:flex;flex-direction:column;line-height:1}
-.logo .word{font-family:var(--script);font-size:2.9rem;line-height:.8;padding-top:8px}
-.logo .tag{font-family:var(--serif);font-size:.7rem;letter-spacing:.35em;color:var(--charcoal);margin-left:3.4rem}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .logo .tag{color:var(--muted)}}
-nav ul{list-style:none;display:flex;gap:26px;margin:0;padding:0;align-items:center}
-nav a{text-decoration:none;color:var(--ink);font-weight:600;font-size:.98rem}
-nav a:hover{color:var(--teal-ink)}
-.btn{display:inline-block;text-decoration:none;font-weight:600;padding:.8em 1.5em;border-radius:999px;background:var(--orange);color:#fff;border:2px solid var(--orange);font-size:1rem}
-.btn:hover{background:var(--orange-ink);border-color:var(--orange-ink);color:#fff}
+.btn{display:inline-block;text-decoration:none;font-weight:600;padding:.8em 1.5em;border-radius:999px;background:var(--accent);color:#fff;border:2px solid var(--accent);font-size:1rem}
+.btn:hover{background:#336E76;border-color:#336E76;color:#fff}
 .btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
 .btn.ghost:hover{border-color:var(--teal);color:var(--teal-ink);background:transparent}
-nav .btn{padding:.55em 1.2em;color:#fff}
-.menu-toggle{display:none;background:none;border:1px solid var(--line);border-radius:8px;padding:8px 12px;font:600 .95rem var(--sans);color:var(--ink)}
-@media (max-width:860px){
-  .menu-toggle{display:block}
-  nav ul{display:none;position:absolute;left:0;right:0;top:100%;background:var(--paper);flex-direction:column;align-items:flex-start;padding:16px 24px 24px;gap:14px;border-bottom:1px solid var(--line)}
-  nav ul.open{display:flex}
-}
 
 /* Hero */
 .hero{position:relative;overflow:hidden;background:var(--mist)}
@@ -114,7 +99,7 @@ section{padding:88px 0}
 .path h3{font-size:2rem;margin-bottom:.3em}
 .path ul{margin:18px 0 28px;padding-left:1.1em}
 .path li{margin-bottom:.45em}
-.path li::marker{color:var(--orange)}
+.path li::marker{color:var(--accent)}
 .path.dark .btn.ghost{color:#fff;border-color:#7A7E7C}
 @media (max-width:860px){.paths{grid-template-columns:1fr}.path{padding:30px}}
 
@@ -131,7 +116,7 @@ section{padding:88px 0}
 /* Steps */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;counter-reset:s;list-style:none;padding:0;margin:0}
 .steps li{counter-increment:s}
-.steps li::before{content:counter(s);display:block;font-family:var(--script);font-size:4.5rem;line-height:.9;color:var(--orange);margin-bottom:6px}
+.steps li::before{content:counter(s);display:block;font-family:var(--script);font-size:4.5rem;line-height:.9;color:var(--accent);margin-bottom:6px}
 .steps h3{margin-bottom:.35em}
 .steps p{color:var(--muted)}
 @media (max-width:760px){.steps{grid-template-columns:1fr;gap:20px}}
@@ -181,8 +166,6 @@ footer{border-top:1px solid var(--line);padding:32px 0 40px;color:var(--muted);f
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 footer a{color:var(--muted)}
 
-/* Brand lockup with Chudleigh Health Hub */
-.logo .tag{letter-spacing:.22em;font-size:.68rem;margin-left:2.6rem;margin-top:2px}
 
 /* Inner pages */
 .page-hero{background:var(--mist);position:relative;overflow:hidden;padding:64px 0 56px}
@@ -196,19 +179,19 @@ footer a{color:var(--muted)}
 .prose h2:first-child{margin-top:0}
 .prose ul{padding-left:1.2em;margin:0 0 1.2em}
 .prose li{margin-bottom:.4em;max-width:60ch}
-.prose li::marker{color:var(--orange)}
+.prose li::marker{color:var(--accent)}
 .split{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:56px;align-items:start}
 .aside{position:sticky;top:110px;background:var(--mist);border-radius:16px;padding:28px;border:1px solid var(--line)}
 .aside h3{margin-bottom:.4em}
 .aside p{color:var(--muted);font-size:1rem}
 .aside .btn{display:block;text-align:center;margin-top:10px}
 @media (max-width:900px){.split{grid-template-columns:1fr}.aside{position:static}}
-.urgent{border-left:4px solid var(--orange);background:var(--mist);padding:20px 24px;border-radius:0 12px 12px 0;margin:1.6em 0}
+.urgent{border-left:4px solid var(--accent);background:var(--mist);padding:20px 24px;border-radius:0 12px 12px 0;margin:1.6em 0}
 .urgent h3{font-size:1.3rem;margin-bottom:.4em}
 .urgent p,.urgent li{color:var(--muted);font-size:1rem}
 .urgent ul{margin-bottom:0}
 .cond a{text-decoration:none;color:inherit;display:block}
-.cond a:hover h3{color:var(--orange-ink)}
+.cond a:hover h3{color:var(--accent-ink)}
 .more{font-weight:600;color:var(--teal-ink);font-size:.95rem;display:inline-block;margin-top:8px}
 .fees{width:100%;border-collapse:collapse;margin:0 0 1.5em}
 .fees th,.fees td{text-align:left;padding:16px 12px 16px 0;border-bottom:1px solid var(--line);vertical-align:top}
@@ -220,9 +203,7 @@ footer a{color:var(--muted)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .placeholder{background:#4A3420;color:#F6C796}}
 .devices{display:grid;grid-template-columns:repeat(2,1fr);gap:0 40px;margin-bottom:1.5em}
 @media (max-width:640px){.devices{grid-template-columns:1fr}}
-nav a[aria-current="page"]{color:var(--teal-ink);text-decoration:underline;text-underline-offset:6px;text-decoration-color:var(--orange)}
 
-.logo .word{white-space:nowrap}@media (max-width:480px){.logo .word{font-size:2.3rem}.logo .tag{font-size:.6rem;margin-left:1.6rem}}
 img.ph{width:100%;height:100%;object-fit:cover;display:block;background:var(--teal)}
 img.noimg{visibility:hidden}
 .feature-wrap{padding:80px 0}
@@ -231,7 +212,7 @@ img.noimg{visibility:hidden}
 .feature.rev .feature-img{order:2}
 .feature-img{aspect-ratio:1/1;border-radius:24px;overflow:hidden;background:var(--teal)}
 .feature-text h2{font-size:clamp(2rem,4vw,2.7rem)}
-.feature-text ul{padding-left:1.1em;margin:0 0 1.4em}.feature-text li{margin-bottom:.45em}.feature-text li::marker{color:var(--orange)}
+.feature-text ul{padding-left:1.1em;margin:0 0 1.4em}.feature-text li{margin-bottom:.45em}.feature-text li::marker{color:var(--accent)}
 .feature-text p{color:var(--muted)}
 .feature-text h3{font-size:1.35rem;margin:1.1em 0 .3em;color:var(--teal-ink)}
 @media (max-width:860px){.feature{grid-template-columns:1fr;gap:28px}.feature.rev .feature-img{order:0}.feature-img{aspect-ratio:4/3}.feature-wrap{padding:56px 0}}
@@ -253,7 +234,7 @@ section.mist{background:var(--mist)}
 .cond-card div{padding:18px 20px 22px}
 .cond-card h3{font-size:1.35rem;color:var(--teal-ink);margin-bottom:.25em}
 .cond-card p{margin:0;color:var(--muted);font-size:.98rem}
-.cond-card:hover h3{color:var(--orange-ink)}
+.cond-card:hover h3{color:var(--accent-ink)}
 .checks{columns:2;column-gap:40px;padding-left:1.1em}
 .checks li{break-inside:avoid;margin-bottom:.5em}
 @media (max-width:640px){.checks{columns:1}}
@@ -271,23 +252,22 @@ details.more-info h4{font-family:var(--serif);font-size:1.15rem;margin:1em 0 .3e
 </style>
 </head>
 <body>
-<header class="site-head">
-  <div class="wrap">
-    <a class="logo" href="index.html" aria-label="Chudleigh Health Hub, Health Autonomy, home">
-      <span class="word">Health Autonomy</span>
-      <span class="tag">CHUDLEIGH HEALTH HUB</span>
+<header class="sn dk">
+  <div class="sn-in">
+    <a class="sn-brand" href="index.html" aria-label="Chudleigh Health Hub, Health Autonomy, home">
+      <span class="ha-logo"><span class="ha-H">H</span>ealth <span class="ha-a">a</span>utonomy</span>
+      <span class="sn-sub"><span class="sn-tag">Take Control · </span><em>at Chudleigh Health Hub</em></span>
     </a>
-    <nav aria-label="Main">
-      <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
-      <ul id="menu">
-        <li><a href="osteopathy.html">Osteopathy</a></li>
-        <li><a href="health-autonomy/index.html">Longevity</a></li>
-        <li><a href="about.html" aria-current="page">About us</a></li>
-        <li><a href="fees.html">Fees</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a class="btn" href="https://book.squareup.com/appointments/z4iykwnki8iox0/location/LNR036HT1VD7Y/services">Book online</a></li>
-      </ul>
+    <button class="sn-toggle" aria-expanded="false" aria-controls="sn-menu">Menu</button>
+    <nav class="sn-links" id="sn-menu" aria-label="Main">
+      <a href="osteopathy.html">Osteopathy</a>
+      <a href="health-autonomy/index.html">Longevity</a>
+      <a href="about.html" aria-current="page">About us</a>
+      <a href="fees.html">Fees</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://chudleigh-health-66895860161.europe-west2.run.app/?portal=true" target="_blank" rel="noopener">Patient login</a>
     </nav>
+    <a class="sn-cta" href="https://book.squareup.com/appointments/z4iykwnki8iox0/location/LNR036HT1VD7Y/services" target="_blank" rel="noopener">Book now</a>
   </div>
 </header>
 <main>
@@ -328,7 +308,7 @@ details.more-info h4{font-family:var(--serif);font-size:1.15rem;margin:1em 0 .3e
     <span><a href="contact.html">Contact</a> &nbsp; <a href="privacy.html">Privacy and legal</a></span>
   </div>
 </footer>
-<script>const t=document.querySelector('.menu-toggle'),m=document.getElementById('menu');if(t&&m){t.addEventListener('click',()=>{const o=m.classList.toggle('open');t.setAttribute('aria-expanded',o)});}</script>
+<script>const t=document.querySelector('.sn-toggle'),m=document.getElementById('sn-menu');if(t&&m){t.addEventListener('click',()=>{const o=m.classList.toggle('open');t.setAttribute('aria-expanded',o)});}</script>
 <script src="chat.js" defer></script>
 </body>
 </html>
