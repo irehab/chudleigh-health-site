@@ -9,7 +9,7 @@ from html.parser import HTMLParser
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://www.chudleighhealth.com/"
 PAGES = [
-    "index.html", "osteopathy.html", "longevity.html", "about.html", "fees.html",
+    "index.html", "osteopathy.html", "about.html", "fees.html",
     "contact.html", "lower-back-pain.html", "neck-pain-headaches.html", "shoulder-pain.html",
     "elbow-pain.html", "hip-pain.html", "knee-pain.html", "pregnancy-mum-baby.html", "privacy.html",
     "health-autonomy/index.html", "health-autonomy/the-science.html",
