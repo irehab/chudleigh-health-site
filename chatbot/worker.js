@@ -6,7 +6,7 @@
 // Calls the Claude Messages API with fetch because the Cloudflare
 // dashboard editor can't install npm packages.
 
-const MODEL = "claude-opus-5-5";
+const MODEL = "claude-haiku-5-5";
 const KNOWLEDGE_URL = "https://irehab.github.io/chudleigh-health-site/chatbot/knowledge.txt";
 const ALLOWED_ORIGINS = [
   "https://irehab.github.io",
@@ -113,13 +113,11 @@ export default {
           "content-type": "application/json",
           "x-api-key": env.ANTHROPIC_API_KEY,
           "anthropic-version": "2023-06-01",
-          "anthropic-beta": "server-side-fallback-2026-07-01",
         },
         body: JSON.stringify({
           model: MODEL,
           max_tokens: 4000,
-          output_config: { effort: "low" },
-          fallbacks: "default",
+          output_config: { effort: "medium" },
           system: [
             { type: "text", text: RULES },
             { type: "text", text: "Website content:\n\n" + knowledge, cache_control: { type: "ephemeral" } },
