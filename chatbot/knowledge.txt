@@ -1521,6 +1521,8 @@ You can ask to see the information we hold about you, ask us to correct it, or i
 
 This website doesn’t use tracking or advertising cookies. It loads fonts from Google Fonts, and booking links take you to Square, which has its own privacy policy.
 
+Website chat assistant. Our website offers an optional chat assistant powered by Claude, an AI service provided by Anthropic. If you use it, the messages you type are sent to Anthropic to generate a reply. We do not store chat conversations. Please don’t share personal or medical details in the chat. To discuss your health or book an appointment, contact us directly.
+
 ## Legal information
 
 Chudleigh Health Hub, 90 Fore Street, Chudleigh, Devon TQ13 0HT. Telephone 07902 065739, email (mailto:info@chudleighhealth.com) info@chudleighhealth.com. Our osteopaths are registered with the General Osteopathic Council (gosc.org.uk), and our physiotherapist with the Health and Care Professions Council (hcpc-uk.org).
