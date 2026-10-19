@@ -2,7 +2,7 @@
    Set CHAT_ENDPOINT to the Cloudflare Worker address to switch the chat on.
    While it is empty, nothing is shown on the site. */
 (function () {
-  var CHAT_ENDPOINT = "";
+  var CHAT_ENDPOINT = "https://chudleigh-chat.atriumclinicswindon.workers.dev";
   var BOOK_URL = "https://book.squareup.com/appointments/z4iykwnki8iox0/location/LNR036HT1VD7Y/services";
   var STORE_KEY = "chh-chat-v1";
   var MAX_SENT = 19;
