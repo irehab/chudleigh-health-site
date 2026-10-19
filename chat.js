@@ -88,7 +88,9 @@
   function linkify(text) {
     var html = escapeHtml(text);
     html = html.replace(/https?:\/\/[^\s<)]+[^\s<).,;:!?]/g, function (url) {
-      var label = url.indexOf("book.squareup.com") !== -1 ? "our booking page" : url;
+      var label = url.indexOf("book.squareup.com") !== -1 ? "our booking page"
+        : url.indexOf("google.com/maps") !== -1 ? "Google Maps"
+        : url.length > 45 ? url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 40) + "…" : url;
       return '<a href="' + url + '" target="_blank" rel="noopener">' + label + "</a>";
     });
     html = html.replace(/(^|[\s(])([\w.+-]+@[\w-]+\.[\w.-]*\w)/g, '$1<a href="mailto:$2">$2</a>');
