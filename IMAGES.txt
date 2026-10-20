@@ -43,9 +43,6 @@ images/steph.jpg
 images/will.png
   https://www.chudleighhealth.com/wp-content/uploads/go-x/u/8186f5c9-fa15-4745-b401-dd4b7c77b4fd/l0,t0,w320,h320/image.png
 
-images/hellie.jpg
-  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/828a0456-725e-4a2b-b936-c11600e1a58d/l0,t75,w1333,h1333/image.jpg
-
 images/back-manip.jpg
   https://www.chudleighhealth.com/wp-content/uploads/go-x/u/d9f0880c-b29a-40b6-887f-0a08908e7c2f/l432,t0,w1056,h1056/image-768x768.jpg
 
