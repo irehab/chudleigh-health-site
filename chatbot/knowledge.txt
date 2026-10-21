@@ -9,7 +9,7 @@
 - Book online: https://book.squareup.com/appointments/z4iykwnki8iox0/location/LNR036HT1VD7Y/services
 - Fees: new patient osteopathy consultation £85; follow-up £50; physiotherapy initial assessment £85, follow-up £50; longevity assessment packages £150, £375 and £595; Rebalance and Bloom mum and baby package £165
 - No GP referral needed. Many health insurers cover osteopathy.
-- Team: John Evans (osteopath and longevity coach, GOsC 6171, Area Leader for osteopathy at Plymouth Marjon University), Steph Evans (osteopath, GOsC 6208, lecturer at Plymouth Marjon University), Will Mintram (osteopath, lecturer at Plymouth Marjon University), plus a physiotherapist
+- Team: John Evans (osteopath and longevity coach, GOsC 6171, Area Leader for osteopathy at Plymouth Marjon University), Steph Evans (osteopath, GOsC 6208, treats all ages with special interests in babies, children, pregnancy and postnatal care; Programme Leader for the Irish College of Osteopathic Medicine BSc at Plymouth Marjon University), Will Mintram (osteopath, lecturer at Plymouth Marjon University), plus a physiotherapist
 - Treats: lower back pain and sciatica, neck pain and headaches arising from the neck, shoulder pain including frozen shoulder, tennis and golfer's elbow, hip and knee pain including arthritic pain, sports injuries, pregnancy and postnatal aches, and offers gentle osteopathy for babies
 - Longevity and performance assessment (Health Autonomy): one 45-minute, needle-free appointment with six tests: body composition (Tanita MC-780MA), skin autofluorescence (AGE Reader), 12-lead ECG, heart rate variability (Frontier X2), spirometry and SpO2, and VALD ForceDecks force plates, plus a calculated VO2 max, with a same-day traffic-light report
 - Assessment packages: The Longevity Baseline £150; The 60-Day Programme £375 (adds a goal-setting consultation, bespoke 60-day plan and 8-week retest); The Complete Overhaul £595 (adds four 45-minute clinical sessions)
@@ -246,7 +246,7 @@ John has been helping people get out of pain for 20 years. His special interest 
 
 Registered Osteopath, GOsC 6208
 
-Steph graduated in 2006 and specialises in musculoskeletal conditions. With a deep knowledge of the body, she builds personalised treatment plans to help each patient reach their best health. She is committed to compassionate care and is an experienced lecturer at Plymouth Marjon University, where she works with John to educate future osteopaths.
+Steph treats patients of all ages, with special interests in babies, children and care through pregnancy and after birth. She’s known for her gentle, reassuring approach, and is Programme Leader for the Irish College of Osteopathic Medicine’s BSc course at Plymouth Marjon University.
 
 Meet the whole team, including our physio
 
@@ -411,7 +411,7 @@ Health Autonomy is what we stand for. We believe you should understand your body
 
 ### Training the next generation
 
-John is Area Leader for osteopathy at Plymouth Marjon University, and Steph and Will lecture there too. It keeps our own practice up to date and held to a high standard.
+John is Area Leader for osteopathy at Plymouth Marjon University, Steph leads the Irish College of Osteopathic Medicine’s BSc course there, and Will lectures there too. It keeps our own practice up to date and held to a high standard.
 
 ## Meet the team
 
@@ -433,7 +433,11 @@ At Plymouth Marjon University, John is Area Leader for osteopathy. He supports t
 
 Registered Osteopath, GOsC 6208
 
-Steph graduated in 2006 and specialises in musculoskeletal conditions. With a deep knowledge of the body, she builds personalised treatment plans to help each patient reach their best health. She is committed to compassionate care and is an experienced lecturer at Plymouth Marjon University, where she works with John to educate future osteopaths.
+Steph has been helping patients of all ages for 20 years. She trained at the European School of Osteopathy in Maidstone, where she met John. She treats the full range of aches, pains and injuries, and has special interests in treating babies and children and in caring for mums through pregnancy and after birth. She’s known for her gentle, reassuring and understanding approach.
+
+Steph practises what she teaches about movement. She trains with movement-based exercise drawn from yoga and calisthenics, and although running has never come naturally to her, she has stuck at it and kept improving to reach her fitness goals.
+
+At Plymouth Marjon University, Steph teaches osteopathic technique and pathology, and is Programme Leader for the Irish College of Osteopathic Medicine’s BSc course. She and John moved to Chudleigh with their three children in 2017.
 
 ### Will Mintram
 
@@ -1163,7 +1167,7 @@ Home / Osteopathy
 
 # Pregnancy, new mum and baby
 
-Pregnancy is a transformative and sometimes challenging journey. We offer gentle, specialist osteopathic care for expectant mums, new mums and babies.
+Pregnancy is a transformative and sometimes challenging journey. We offer gentle, specialist osteopathic care for expectant mums, new mums and babies. Your care is led by Steph Evans, whose special interests are babies, children and maternity care.
 
 (https://book.squareup.com/appointments/z4iykwnki8iox0/location/LNR036HT1VD7Y/services) Book an appointment (tel:07902065739) Call 07902 065739
 
