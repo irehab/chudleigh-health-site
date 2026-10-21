@@ -72,3 +72,7 @@ a.btn[href*="book.squareup.com"]:hover{background:#A9530C;border-color:#A9530C;c
 .reviews .rv-dots button[aria-current="true"]{background:var(--teal)}
 .reviews .rv-links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 @media(max-width:640px){.reviews.rv-js .rv-list{min-height:13em}}
+.reviews{border-block:1px solid var(--line)}
+.rv-badge{display:inline-flex;align-items:center;gap:8px;margin-top:16px;color:inherit;text-decoration:none;font-weight:600}
+.rv-badge .rv-stars{color:#E07A1F;letter-spacing:2px;font-size:1.1rem}
+.rv-badge:hover,.rv-badge:focus-visible{text-decoration:underline}
