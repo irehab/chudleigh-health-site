@@ -55,3 +55,4 @@ a.btn[href*="book.squareup.com"]{background:#C4620F;border-color:#C4620F;color:#
 a.btn[href*="book.squareup.com"]:hover{background:#A9530C;border-color:#A9530C;color:#fff}
 
 @media print{.sn{display:none}}
+@media(max-width:1120px){.sn-tag{display:none}}
