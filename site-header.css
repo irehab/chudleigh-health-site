@@ -14,8 +14,8 @@
 .sn-in{max-width:1140px;margin:0 auto;padding:8px max(20px,env(safe-area-inset-right,0px)) 10px max(20px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:20px}
 .sn-brand{display:flex;flex-direction:column;text-decoration:none;line-height:1}
 .sn-brand .ha-logo{font-size:44px;color:var(--sn-teal)}
-.cl-logo{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:30px;line-height:1.15;color:var(--sn-strong);white-space:nowrap;letter-spacing:.01em}
-.sn-sub.cl-sub{margin:1px 0 0 1px}
+.cl-logo{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:28px;line-height:1.1;color:var(--sn-strong);white-space:nowrap;letter-spacing:.01em}
+.sn-brand .ha-logo.cl-ha{font-size:46px;margin:-8px 0 -12px 4px}
 .sn-sub{font-family:'Cormorant Garamond',Georgia,serif;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--sn-ink);margin:-2px 0 0 30px;white-space:nowrap}
 .sn-sub em{text-transform:none;letter-spacing:.02em;font-size:13px;color:var(--sn-accent)}
 .sn-links{display:flex;align-items:center;gap:2px;margin-left:auto}
@@ -37,12 +37,13 @@
 .sn-section a[aria-current="page"]{background:var(--sn-current);color:var(--sn-strong);font-weight:700}
 
 @media(max-width:1240px){.sn-links a{padding:8px 8px}}
-@media(max-width:1100px){
+@media(max-width:1140px){
   .sn-in{flex-wrap:wrap;gap:6px 10px;padding-top:6px;padding-bottom:6px}
   .sn-brand .ha-logo{font-size:34px}
-  .cl-logo{font-size:26px}
+  .cl-logo{font-size:24px}
+  .sn-brand .ha-logo.cl-ha{font-size:40px;margin:-7px 0 -10px 3px}
   .sn-tag{display:none}
-  .sn-sub{margin-left:22px}.sn-sub.cl-sub{margin-left:1px}.sn-sub em{font-size:11.5px}
+  .sn-sub{margin-left:22px}.sn-sub em{font-size:11.5px}
   .sn-toggle{display:block}
   .sn-cta{font-size:14px;padding:8px 14px}
   .sn-links{display:none;order:3;width:100%;flex-direction:column;align-items:stretch;gap:2px;margin:4px 0 6px}
@@ -51,9 +52,10 @@
 }
 @media(max-width:420px){
   .sn-brand .ha-logo{font-size:30px}
-  .cl-logo{font-size:17px}
+  .cl-logo{font-size:16px}
+  .sn-brand .ha-logo.cl-ha{font-size:26px;margin:-5px 0 -7px 2px}
   .sn-in{padding-left:max(14px,env(safe-area-inset-left,0px));padding-right:max(14px,env(safe-area-inset-right,0px))}
-  .sn-sub{margin-left:18px}.sn-sub.cl-sub{margin-left:1px}.cl-sub em{font-size:10px}
+  .sn-sub{margin-left:18px}
   .sn-in{gap:6px 8px}
   .sn-cta{padding:8px 12px}
   .sn-section-label{display:none}
