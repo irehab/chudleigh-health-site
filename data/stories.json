@@ -1,0 +1,16 @@
+{
+  "title": "Patient stories | Chudleigh Health Hub, Osteopath in Chudleigh, Devon",
+  "description": "Real stories from patients of Chudleigh Health Hub in Chudleigh, Devon, shared with their permission, and how to share your own.",
+  "lede": "Real experiences from people we’ve helped, shared in their own words and with their permission.",
+  "empty_text": "We’re collecting stories from patients who are happy to share their experience. Every story here will be in the patient’s own words, shared with their written permission. In the meantime, you can read what patients say in our Google reviews, or follow John’s own results in the <a href=\"health-autonomy/journal.html\">Health Autonomy Journal</a>.",
+  "share_intro": "If we’ve helped you, we’d love to hear about it. Here’s how it works:",
+  "share_steps": [
+    "Email us a few lines about what brought you to us and how things are now. If you’ve had a longevity assessment, you’re welcome to include any results you’re happy to share.",
+    "We’ll send you the final wording to check. Nothing is published until you’ve approved it in writing.",
+    "You choose how you’re named: first name, first name and town, or anonymous.",
+    "You can ask us to remove your story at any time."
+  ],
+  "small_print": "Please don’t include anything you wouldn’t want to be public. We may lightly edit stories for length, and we won’t publish claims that a treatment cured a medical condition. Stories describe individual experiences, and everyone’s results are different. See our <a href=\"privacy.html\">privacy policy</a>.",
+  "email_body": "My story:\n\n\nHow I'd like to be named (first name / first name and town / anonymous):\n\nI'm happy for Chudleigh Health Hub to contact me about publishing this (yes/no):\n",
+  "stories": []
+}

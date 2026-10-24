@@ -1,0 +1,39 @@
+{
+  "title": "The Health Autonomy Journal: John's results, retest by retest",
+  "description": "Osteopath John Evans tracks his own Health Autonomy results in Chudleigh, Devon: VO2 max, BodyAge, muscle, body fat, heart, lungs, power and steps, with honest monthly updates.",
+  "headline_html": "Practising what we preach. <em>Every result, in public.</em>",
+  "lede": "I ask patients to measure, act and retest. So I’m doing the same: the same six tests, the same equipment, retested every 8 weeks, with honest updates on what I’m changing and what’s working.",
+  "numbers_intro": "Results from the Health Autonomy assessment, retested every 8 weeks on the same equipment, plus my average daily steps each month. Each card shows the latest result and how it has changed since the first test.",
+  "updates_intro": "A short update each month: training, sleep, nutrition, steps, what’s working and what isn’t.",
+  "disclaimer": "These are one person’s results, shared to show how the assessment and retesting work. They aren’t medical advice, and everyone’s results are different. The assessment is a health and fitness baseline, not a medical diagnosis.",
+  "person": {
+    "name": "John Evans",
+    "role": "Registered Osteopath and Longevity Coach",
+    "registration": "GOsC 6171",
+    "photo": "../images/john.jpg",
+    "bio": "Founder of Health Autonomy and Area Leader for osteopathy at Plymouth Marjon University."
+  },
+  "metrics": [
+    {"id": "vo2", "label": "VO₂ max", "test": "Calculated", "unit": "ml/kg/min", "better": "higher", "points": []},
+    {"id": "bodyage", "label": "BodyAge", "test": "AGE Reader", "unit": "years", "better": "lower", "points": []},
+    {"id": "muscle", "label": "Muscle mass", "test": "Tanita", "unit": "kg", "better": "higher", "points": []},
+    {"id": "legdiff", "label": "Left/right leg muscle difference", "test": "Tanita", "unit": "%", "better": "lower", "points": []},
+    {"id": "bodyfat", "label": "Body fat", "test": "Tanita", "unit": "%", "better": "lower", "points": []},
+    {"id": "visceral", "label": "Visceral fat rating", "test": "Tanita", "unit": "", "better": "lower", "points": []},
+    {"id": "phase", "label": "Phase angle", "test": "Tanita", "unit": "°", "better": "higher", "points": []},
+    {"id": "rhr", "label": "Resting heart rate", "test": "12-lead ECG", "unit": "bpm", "better": "lower", "points": []},
+    {"id": "hrv", "label": "Heart rate variability", "test": "Frontier X2", "unit": "ms", "better": "higher", "points": []},
+    {"id": "lungage", "label": "Lung age", "test": "Spirometry", "unit": "years", "better": "lower", "points": []},
+    {"id": "power", "label": "Jump power", "test": "Force plates", "unit": "W", "better": "higher", "points": []},
+    {"id": "asym", "label": "Left/right power difference", "test": "Force plates", "unit": "%", "better": "lower", "points": []},
+    {"id": "steps", "label": "Average daily steps", "test": "Monthly average", "unit": "steps", "better": "higher", "points": []}
+  ],
+  "updates": [
+    {
+      "id": "starting-line",
+      "date": "2026-10",
+      "title": "The starting line",
+      "body_html": "<p>I’ve been an osteopath for 20 years, and I’ve spent a lot of that time telling people that stiffness, weakness and poor balance aren’t just “getting older”. Most of it can be improved. I created Health Autonomy to prove it, and this journal is me putting myself through exactly what I ask of patients.</p><p>I know recovery first-hand. After acute brachial neuritis and spondylolisthesis, I rebuilt my fitness and went on to complete the Roc Triathlon adventure race in Wales. Now I want to see what the numbers say.</p><p>This month I’m taking my baseline assessment: body composition, AGE Reader, ECG, heart rate variability, spirometry and force plates. My results will go up here as soon as I have them, good or bad, followed by my plan for the next 8 weeks.</p>"
+    }
+  ]
+}
