@@ -96,7 +96,19 @@ JOURNAL_CSS = """
   .who img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex:none}
   .who p{margin:0;color:var(--muted);font-size:15px}
   .who strong{color:var(--primary);font-size:17px}
+  .follow{display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:var(--card);border:1px solid var(--border);border-radius:18px;padding:20px;max-width:760px;margin:0 0 32px}
+  .follow p{margin:0;color:var(--muted);font-size:15px;flex:1 1 320px}
+  .follow strong{color:var(--primary);font-size:17px}
 """
+
+
+def follow_box(f):
+    """'Follow my training on Strava': shown only when journal.json has a real Strava profile link under "follow"."""
+    link = (f or {}).get("strava", "")
+    if not link.startswith("https://www.strava.com/athletes/"):
+        return ""
+    return (f'<div class="follow"><p><strong>Follow my training</strong><br>{esc(f.get("text", ""))}</p>'
+            f'<a class="btn" href="{esc(link)}" target="_blank" rel="noopener">Follow me on Strava</a></div>')
 
 
 def build_journal(j):
@@ -188,6 +200,7 @@ def build_journal(j):
       <h2>What I’m doing, and how it’s going</h2>
       <p>{j["updates_intro"]}</p>
     </div>
+    {follow_box(j.get("follow"))}
     <div class="timeline">
 {entries}
     </div>

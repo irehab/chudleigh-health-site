@@ -5,6 +5,10 @@
   "lede": "I ask patients to measure, act and retest. So I’m doing the same: the same six tests, the same equipment, retested every 8 weeks, with honest updates on what I’m changing and what’s working.",
   "numbers_intro": "Results from the Health Autonomy assessment, retested every 8 weeks on the same equipment, plus my average daily steps each month. Each card shows the latest result and how it has changed since the first test.",
   "updates_intro": "A short update each month: training, sleep, nutrition, steps, what’s working and what isn’t.",
+  "follow": {
+    "strava": "https://www.strava.com/athletes/PLACEHOLDER",
+    "text": "I log my strength and conditioning sessions and my runs on Strava. Follow along to see the week-to-week training behind these numbers; my updates below say how it’s going."
+  },
   "disclaimer": "These are one person’s results, shared to show how the assessment and retesting work. They aren’t medical advice, and everyone’s results are different. The assessment is a health and fitness baseline, not a medical diagnosis.",
   "person": {
     "name": "John Evans",
