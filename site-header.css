@@ -37,7 +37,7 @@
 .sn-section a[aria-current="page"]{background:var(--sn-current);color:var(--sn-strong);font-weight:700}
 
 @media(max-width:1240px){.sn-links a{padding:8px 8px}}
-@media(max-width:1140px){
+@media(max-width:980px){
   .sn-in{flex-wrap:wrap;gap:6px 10px;padding-top:6px;padding-bottom:6px}
   .sn-brand .ha-logo{font-size:34px}
   .cl-logo{font-size:24px}
