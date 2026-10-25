@@ -7,7 +7,9 @@
   "updates_intro": "A short update each month: training, sleep, nutrition, steps, what’s working and what isn’t.",
   "follow": {
     "strava": "https://www.strava.com/athletes/35451173",
-    "text": "I log my strength and conditioning sessions and my runs on Strava. Follow along to see the week-to-week training behind these numbers; my updates below say how it’s going."
+    "heading": "How I’m working towards my targets",
+    "text": "My targets are the numbers above: a fitter heart and lungs, more muscle, better balance. The everyday work behind them, mostly strength sessions, walks and easy runs, goes on Strava. Follow along to see what it takes week to week; my updates below say how it’s going.",
+    "button": "See my weekly activity on Strava"
   },
   "disclaimer": "These are one person’s results, shared to show how the assessment and retesting work. They aren’t medical advice, and everyone’s results are different. The assessment is a health and fitness baseline, not a medical diagnosis.",
   "person": {

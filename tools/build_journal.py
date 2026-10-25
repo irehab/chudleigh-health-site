@@ -107,8 +107,8 @@ def follow_box(f):
     link = (f or {}).get("strava", "")
     if not link.startswith("https://www.strava.com/athletes/"):
         return ""
-    return (f'<div class="follow"><p><strong>Follow my training</strong><br>{esc(f.get("text", ""))}</p>'
-            f'<a class="btn" href="{esc(link)}" target="_blank" rel="noopener">Follow me on Strava</a></div>')
+    return (f'<div class="follow"><p><strong>{esc(f.get("heading", "Follow my progress"))}</strong><br>{esc(f.get("text", ""))}</p>'
+            f'<a class="btn" href="{esc(link)}" target="_blank" rel="noopener">{esc(f.get("button", "See my activity on Strava"))}</a></div>')
 
 
 def build_journal(j):
