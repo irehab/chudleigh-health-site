@@ -139,3 +139,11 @@ images/long-move.jpg
 images/long-sleep.jpg
   https://www.chudleighhealth.com/wp-content/uploads/go-x/u/b31a1ae3-e789-4f32-b521-79f5742ac9e2/l256,t0,w1024,h1024/image-768x768.jpg
 
+Condition card photos replaced 26 Oct 2026 (the earlier ones were unlicensed Unsplash+ previews).
+Free Unsplash licence (https://unsplash.com/license): commercial use allowed, credit appreciated but not required.
+images/shoulder.jpg
+  Photo by Sincerely Media on Unsplash: https://unsplash.com/photos/person-massaging-shoulder-in-white-shirt-wGFibXDQlBI
+images/hip.jpg
+  Photo by Annie Spratt on Unsplash: https://unsplash.com/photos/person-pressing-man-back-kneeling-on-blue-towel-Nt5eeIKH-1s
+images/knee.jpg
+  Photo by yury kirillov on Unsplash: https://unsplash.com/photos/a-man-getting-his-leg-examined-by-a-doctor-pbUWW-CBoqY
