@@ -36,6 +36,12 @@
   ],
   "updates": [
     {
+      "id": "baseline-results",
+      "date": "2026-10-29",
+      "title": "My baseline: what the numbers say",
+      "body_html": "<p>I had my baseline assessment on 26 October. It was the same tests any Health Autonomy client has, on the same equipment. Overall, I’m pleased. My estimated fitness, resting heart rate and body composition all came out where I’d want them. The AGE Reader put my BodyAge at 41, against my actual age of 48.</p><p>The tests also showed me what I need to work on: my left and right sides don’t share the load equally. On the force plates, my left leg did 11% less of the work when pushing off in a jump. Standing on my left leg, my balance was noticeably shakier than on my right. My right arm also carries a little less muscle than my left. With my injury history, I’m not surprised. But it’s exactly the kind of thing you’d never spot without measuring.</p><p><strong>My plan for the next 8 weeks</strong></p><ul><li><strong>Single-leg strength twice a week:</strong> split squats, step-ups and single-leg deadlifts, always starting with my left side.</li><li><strong>Balance work most days:</strong> a few minutes standing on one leg, eyes open and then closed. Brushing my teeth is a good time for it.</li><li><strong>Single-arm presses and rows</strong>, so my right arm can catch up.</li><li><strong>Keeping my walks and easy runs going</strong>, so my fitness doesn’t slip.</li><li><strong>Retest just before Christmas</strong>, with the same tests and the same equipment.</li></ul><p>I’ll post an update each month. When I retest, the cards above will change, whether the numbers go the way I want or not.</p>"
+    },
+    {
       "id": "starting-line",
       "date": "2026-10",
       "title": "The starting line",
