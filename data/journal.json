@@ -17,7 +17,7 @@
     "role": "Registered Osteopath and Longevity Coach",
     "registration": "GOsC 6171",
     "photo": "../images/john.jpg",
-    "bio": "Founder of Health Autonomy and Area Leader for osteopathy at Plymouth Marjon University."
+    "bio": "Area Leader for osteopathy at Plymouth Marjon University."
   },
   "metrics": [
     {"id": "vo2", "label": "VO₂ max", "test": "Calculated", "unit": "ml/kg/min", "better": "higher", "points": [{"date": "2026-10-26", "value": 45}], "note": "An estimate, not a treadmill test."},

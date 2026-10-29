@@ -47,5 +47,5 @@
 - [Tanita body composition analysis](https://www.chudleighhealth.com/tanita-body-composition.html): What the Tanita MC-780MA segmental analyser measures: limb muscle, visceral fat, body water, phase angle and metabolic age.
 - [Spirometry: lung function and lung age](https://www.chudleighhealth.com/spirometry-lung-test.html): What FVC, FEV1, lung age and SpO2 mean and how to prepare for the test.
 - [The Health Autonomy Journal](https://www.chudleighhealth.com/health-autonomy/journal.html): Osteopath John Evans tracks his own Health Autonomy results (VO2 max, BodyAge, body composition, heart, lungs, power, steps) retest by retest, with monthly updates.
-- [Sample Health Autonomy report](https://www.chudleighhealth.com/health-autonomy/sample-report.html): John Evans's own full Health Autonomy assessment report from 26 October 2026, shown as an example of what clients receive.
+- [Sample Health Autonomy report](https://www.chudleighhealth.com/health-autonomy/sample-report.html): John Evans's own full Health Autonomy assessment report from 26 October 2026, shown as an example of what participants receive.
 - [Patient stories](https://www.chudleighhealth.com/stories.html): Patient experiences shared with written permission, and how to share your own.
