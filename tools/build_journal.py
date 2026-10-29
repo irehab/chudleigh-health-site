@@ -78,11 +78,11 @@ JOURNAL_CSS = """
   .jgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
   .jcard{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px}
   .jcard h3{font-size:22px;margin:4px 0 10px}
-  .jvalue{font-family:var(--serif);font-size:34px;font-weight:700;color:var(--primary);margin:0;line-height:1.1}
+  .jcard .jvalue{font-family:var(--serif);font-size:34px;font-weight:700;color:var(--primary);margin:0;line-height:1.1}
   .jvalue small{font-family:var(--sans);font-size:14px;font-weight:400;color:var(--muted)}
-  .jpending{font-size:22px;color:var(--secondary)}
-  .jdate,.jnote{font-size:13.5px;color:var(--muted);margin:6px 0 0}
-  .jchange{font-size:14px;font-weight:700;margin:8px 0 0}
+  .jcard .jpending{font-size:22px;color:var(--secondary)}
+  .jcard .jdate,.jcard .jnote{font-size:13.5px;color:var(--muted);margin:6px 0 0}
+  .jcard .jchange{font-size:14px;font-weight:700;margin:8px 0 0}
   .jchange.up{color:var(--green)} .jchange.down{color:#b45309} .jchange.same{color:var(--muted)}
   .jchart{width:100%;height:auto;margin-top:12px}
   .jchart path{fill:none;stroke:var(--secondary);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
@@ -157,7 +157,7 @@ def build_journal(j):
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>{assets}</head>
 """
-    cards = "\n".join(metric_card(m) for m in j["metrics"])
+    cards = "\n".join(metric_card(m) for m in j["metrics"] if not m.get("hidden"))
     entries = "\n".join(
         f'<article class="entry" id="{u["id"]}"><span class="tag">{nice_date(u["date"])}</span><h3>{esc(u["title"])}</h3>{u["body_html"]}</article>'
         for u in sorted(j["updates"], key=lambda u: u["date"], reverse=True))
