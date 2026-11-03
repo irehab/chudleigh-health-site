@@ -119,7 +119,7 @@ images/preg-holistic.jpg
   https://www.chudleighhealth.com/wp-content/uploads/go-x/u/908cad7a-58a0-41fc-85c8-627bf7226060/l273,t0,w1080,h1080/image-768x768.jpg
 
 images/preg-milestones.jpg
-  https://www.chudleighhealth.com/wp-content/uploads/go-x/u/abe56893-2a5e-4157-8c90-8dbc2da5b741/l0,t320,w1281,h1281/image-384x384.jpg
+  Photo by Kevin Gent on Unsplash (free Unsplash License, replaced small old-site photo 3 Nov 2026): https://unsplash.com/photos/crawling-baby-on-floor-mVk7pnnlULc
 
 images/long-hero.jpg
   https://www.chudleighhealth.com/wp-content/uploads/go-x/u/6ea01a00-148b-4f3f-889e-2572db0fb69c/l412,t0,w1024,h1024/image.jpg
@@ -151,3 +151,9 @@ images/knee.jpg
 images/running-dartmoor.jpg (running-injuries.html)
   Haytor Rocks, Dartmoor, by Steven Winter, Unsplash (free Unsplash License)
   https://unsplash.com/photos/a-group-of-people-standing-on-top-of-a-rock-formation-mDN1644wrq8
+
+images/strength-balance.jpg (strength-balance.html)
+  Photo by Khanh Do on Unsplash (free Unsplash License): https://unsplash.com/photos/seniors-exercising-together-outdoors-in-a-park-f1VbC8-t37s
+
+images/young-football.jpg (young-athletes.html)
+  Photo by Quilia on Unsplash (free Unsplash License): https://unsplash.com/photos/children-playing-soccer-on-grass-field-AvcBDbR-LWc
