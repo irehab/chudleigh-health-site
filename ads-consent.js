@@ -42,7 +42,8 @@
     "#chh-consent .chh-c-row{display:flex;gap:8px}",
     "#chh-consent button{flex:1;padding:10px 12px;border-radius:999px;border:2px solid var(--accent,#3D7F88);font:inherit;font-weight:600;cursor:pointer;background:transparent;color:var(--ink,#2F3130)}",
     "#chh-consent button.chh-c-yes{background:var(--accent,#3D7F88);color:#fff}",
-    "#chh-consent :focus-visible{outline:3px solid var(--accent-ink,#336E76);outline-offset:2px}"
+    "#chh-consent :focus-visible{outline:3px solid var(--accent-ink,#336E76);outline-offset:2px}",
+    "@media (max-width:760px){#chh-consent{left:8px;right:8px;width:auto;max-width:none;padding:10px 12px;font-size:13px;line-height:1.35;border-radius:12px}#chh-consent p{margin:0 0 8px}#chh-consent button{padding:6px 10px}}"
   ].join("");
 
   function showBanner() {
