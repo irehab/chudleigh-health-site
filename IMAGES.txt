@@ -157,3 +157,9 @@ images/strength-balance.jpg (strength-balance.html)
 
 images/young-football.jpg (young-athletes.html)
   Photo by Quilia on Unsplash (free Unsplash License): https://unsplash.com/photos/children-playing-soccer-on-grass-field-AvcBDbR-LWc
+
+images/jaw-1.jpg (jaw-pain-tmj.html, osteopathy.html card)
+  Photo by engin akyurt on Unsplash (free Unsplash License): https://unsplash.com/photos/woman-in-black-tank-top-holding-white-textile-NKTJCOHzrUM
+
+images/jaw-2.jpg (jaw-pain-tmj.html)
+  Photo by Fábio Lucas on Unsplash (free Unsplash License): https://unsplash.com/photos/woman-in-black-framed-eyeglasses-and-black-long-sleeve-shirt-2QOMia2irCU
